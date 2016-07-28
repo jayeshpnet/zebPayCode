@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Zebpay_Jayesh.Azure1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="Zebpay_Jayesh">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="jackAdmin" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCECxi20GJO1OOQm3Fsky5lHEwDQYJKoZIhvcNAQEBBQAEggEAL8vMP+D5Tn7EdmO0kOghHLGxiO9A1qHmMaN3BHHlr/xf3jJJYRsluoG9xQoMQ1oNp3JCjLgcxz8iAE53Spp4zt7lsAgwEE5yuLNhJqSax1U7Np/7elTtZfCE6MSkhdlaRM2EfQCcNpRrGUocsnXv1zI4KZGc3BCryKKtAfqKkFo5MpXHRLDsXTyGqPDm3m8UWOgKt0S7cBTGLSk0ei2NrFSqRc43OxDRxNvLXCnWmYHokPkJ+UiEdlI+L4RECKWDc28fkCPluCmKJJcTI/cv2On28JoC3hp66CZyG3LWsMgoypSKRKj0Sc2xW5GAwa6xSPaxB5qtJ9Oq/xgNjPCKdzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECBn22NdaCpotgBAUJOb3XFB4wv+i8tsR8O/B" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-07-27T23:59:59.0000000+05:30" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="D677BF4BE7477E3AB2C2DD74B0E2F59764B22180" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
